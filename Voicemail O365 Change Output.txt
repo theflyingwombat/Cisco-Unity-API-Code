@@ -1,0 +1,20 @@
+# Found User Info
+{u'@total': u'1', u'User': {u'City': u'', u'DisplayName': u'user 123', u'VoiceNameRequired': u'false', u'FirstName': u'user', u'SmtpProxyAddressesURI': u'/vmrest/smtpproxyaddresses?query=(ObjectGlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)', u'LastName': u'123', u'MessageHandlersURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/messagehandlers', u'CreationTime': u'2014-09-02T13:42:45Z', u'MailboxStoreName': u'Unity Messaging Database -1', u'PhoneSystemURI': u'/vmrest/phonesystems/d2a7556e-b52f-4174-aaaa-b4e4d03e9b39', u'Department': u'networks', u'TimeZone': u'20', u'PartitionObjectId': u'99cb641b-d20c-4657-aaaa-e0a437681fc5', u'ObjectId': u'b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'PartitionURI': u'/vmrest/partitions/99cb641b-d20c-4657-aaaa-e0a437681fc5', u'LocationObjectId': u'2d139154-81bd-4e38-aaaa-fa3ca7527189', u'ExternalServiceAccountsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/externalserviceaccounts', u'UserRoleURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/userroles', u'CosURI': u'/vmrest/coses/b756b6cc-85c4-499d-aaaa-aebcf737be61', u'UserMailboxURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mailboxattributes', u'EmployeeId': u'', u'Language': u'1033', u'PrivateListsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/privatelists', u'CallhandlerURI': u'/vmrest/handlers/callhandlers/12b3be78-e4fc-4201-aaea-a4cebd86fe5c', u'CosObjectId': u'b756b6cc-85c4-499d-aaaa-aebcf737be61', u'URI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'Alias': u'user123', u'PhoneNumber': u'+15801234567', u'AlternateNamesURI': u'/vmrest/alternatenames?query=(GlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)', u'UserVoicePinURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/pin', u'MwisURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mwis', u'UserWebPasswordURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/password', u'CallHandlerObjectId': u'12b3be78-e4fc-4201-aaea-a4cebd86fe5c', u'IsVmEnrolled': u'false', u'NotificationDevicesURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/notificationdevices', u'VideoServiceAccountsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/videoserviceaccounts', u'AlternateExtensionsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/alternateextensions', u'DtmfAccessId': u'12345', u'EmailAddress': u'user123@domain.com', u'ListInDirectory': u'true', u'MediaSwitchObjectId': u'd2a7556e-b52f-4174-aaaa-b4e4d03e9b39', u'LocationURI': u'/vmrest/locations/connectionlocations/2d139154-81bd-4e38-aaaa-fa3ca7527189'}}
+
+# User's UUID
+b0798cd4-c0bd-4363-aaaa-1a71d3505288
+
+number of unified accounts for user: 1
+
+# User's Unified Messaging Output
+{u'@total': u'1', u'ExternalServiceAccount': {u'EnableTtsOfEmailCapability': u'true', u'UserPassword': u'', u'IsPrimaryMeetingService': u'false', u'ObjectId': u'550c477c-3f3f-4e95-bb3e-79a86d5c72f8', u'SubscriberObjectId': u'b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'ExternalServiceObjectId': u'e412885a-5614-aaaa-aaaa-a525e34f3a1e', u'URI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/externalserviceaccounts/550c477c-3f3f-4e95-aaaa-79a86d5c72f8', u'UserURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'EmailAddress': u'user123@domain.com', u'EnableMeetingCapability': u'false', u'EmailAddressUseCorp': u'true', u'UserExternalServiceResetURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/externalserviceaccounts/550c477c-3f3f-4e95-aaaa-79a86d5c72f8/reset', u'EnableMailboxSynchCapability': u'true', u'LoginType': u'0', u'EnableCalendarCapability': u'true'}}
+
+# Unified Messaging UUID
+550c477c-3f3f-4e95-aaaa-79a86d5c72f8
+Unified Account for user123 already exists
+<Response [204]>  # 2XX is successful
+
+Unified Account deletion for user123 successful
+Proceeding with O365 Account Build
+<Response [201]>
+Unified account build for: user123 successful

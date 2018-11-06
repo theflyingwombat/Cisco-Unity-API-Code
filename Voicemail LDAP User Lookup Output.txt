@@ -1,0 +1,71 @@
+
+# print response code
+<Response [200]>
+
+# unedited output of found user found with DTMFid (extension)
+{u'@total': u'1', u'User': {u'City': u'', u'DisplayName': u'user123', u'VoiceNameRequired': u'false', u'FirstName': u'user', u'SmtpProxyAddressesURI': u'/vmrest/smtpproxyaddresses?query=(ObjectGlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)', u'LastName': u'123', u'MessageHandlersURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/messagehandlers', u'CreationTime': u'2014-09-02T13:42:45Z', u'MailboxStoreName': u'Unity Messaging Database -1', u'PhoneSystemURI': u'/vmrest/phonesystems/d2a7556e-b52f-4174-aaaa-b4e4d03e9b39', u'Department': u'networks', u'TimeZone': u'20', u'PartitionObjectId': u'99cb641b-d20c-4657-aaaa-e0a437681fc5', u'ObjectId': u'b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'PartitionURI': u'/vmrest/partitions/99cb641b-d20c-4657-aaaa-e0a437681fc5', u'LocationObjectId': u'2d139154-81bd-4e38-aaaa-fa3ca7527189', u'ExternalServiceAccountsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/externalserviceaccounts', u'UserRoleURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/userroles', u'CosURI': u'/vmrest/coses/b756b6cc-85c4-499d-aaaa-aebcf737be61', u'UserMailboxURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mailboxattributes', u'EmployeeId': u'', u'Language': u'1033', u'PrivateListsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/privatelists', u'CallhandlerURI': u'/vmrest/handlers/callhandlers/12b3be78-e4fc-4201-aaaa-a4cebd86fe5c', u'CosObjectId': u'b756b6cc-85c4-499d-aaaa-aebcf737be61', u'URI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288', u'Alias': u'user123', u'PhoneNumber': u'+15801234567', u'AlternateNamesURI': u'/vmrest/alternatenames?query=(GlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)', u'UserVoicePinURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/pin', u'MwisURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mwis', u'UserWebPasswordURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/password', u'CallHandlerObjectId': u'12b3be78-e4fc-4201-aaaa-a4cebd86fe5c', u'IsVmEnrolled': u'false', u'NotificationDevicesURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/notificationdevices', u'VideoServiceAccountsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/videoserviceaccounts', u'AlternateExtensionsURI': u'/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/alternateextensions', u'DtmfAccessId': u'12345', u'EmailAddress': u'user123@domain.com', u'ListInDirectory': u'true', u'MediaSwitchObjectId': u'd2a7556e-b52f-4174-aaaa-b4e4d03e9b39', u'LocationURI': u'/vmrest/locations/connectionlocations/2d139154-81bd-4e38-aaaa-fa3ca7527189'}}
+
+# number of accounts found
+1
+
+# output of found user found with DTMFid (extension) printed neatly
+{
+    "@total": "1", 
+    "User": {
+        "Alias": "user123", 
+        "AlternateExtensionsURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/alternateextensions", 
+        "AlternateNamesURI": "/vmrest/alternatenames?query=(GlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)", 
+        "CallHandlerObjectId": "12b3be78-e4fc-4201-aaaa-a4cebd86fe5c", 
+        "CallhandlerURI": "/vmrest/handlers/callhandlers/12b3be78-e4fc-4201-aaaa-a4cebd86fe5c", 
+        "City": "", 
+        "CosObjectId": "b756b6cc-85c4-499d-aaaa-aebcf737be61", 
+        "CosURI": "/vmrest/coses/b756b6cc-85c4-499d-aaaa-aebcf737be61", 
+        "CreationTime": "2014-09-02T13:42:45Z", 
+        "Department": "networks", 
+        "DisplayName": "user123", 
+        "DtmfAccessId": "12345", 
+        "EmailAddress": "user123@domain.com", 
+        "EmployeeId": "", 
+        "ExternalServiceAccountsURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/externalserviceaccounts", 
+        "FirstName": "user", 
+        "IsVmEnrolled": "false", 
+        "Language": "1033", 
+        "LastName": "123", 
+        "ListInDirectory": "true", 
+        "LocationObjectId": "2d139154-81bd-4e38-aaaa-fa3ca7527189", 
+        "LocationURI": "/vmrest/locations/connectionlocations/2d139154-81bd-4e38-aaaa-fa3ca7527189", 
+        "MailboxStoreName": "Unity Messaging Database -1", 
+        "MediaSwitchObjectId": "d2a7556e-b52f-4174-aaaa-b4e4d03e9b39", 
+        "MessageHandlersURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/messagehandlers", 
+        "MwisURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mwis", 
+        "NotificationDevicesURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/notificationdevices", 
+        "ObjectId": "b0798cd4-c0bd-4363-aaaa-1a71d3505288", 
+        "PartitionObjectId": "99cb641b-d20c-4657-aaaa-e0a437681fc5", 
+        "PartitionURI": "/vmrest/partitions/99cb641b-d20c-4657-aaaa-e0a437681fc5", 
+        "PhoneNumber": "+15801234567", 
+        "PhoneSystemURI": "/vmrest/phonesystems/d2a7556e-b52f-4174-aaaa-b4e4d03e9b39", 
+        "PrivateListsURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/privatelists", 
+        "SmtpProxyAddressesURI": "/vmrest/smtpproxyaddresses?query=(ObjectGlobalUserObjectId%20is%20b0798cd4-c0bd-4363-aaaa-1a71d3505288)", 
+        "TimeZone": "20", 
+        "URI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288", 
+        "UserMailboxURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/mailboxattributes", 
+        "UserRoleURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/userroles", 
+        "UserVoicePinURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/pin", 
+        "UserWebPasswordURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/credential/password", 
+        "VideoServiceAccountsURI": "/vmrest/users/b0798cd4-c0bd-4363-aaaa-1a71d3505288/videoserviceaccounts", 
+        "VoiceNameRequired": "false"
+    }
+}
+
+<Response [200]>
+
+# pkid of user from LDAP search which is needed for user built
+763b165f-7574-f013-aaa-3ec6a75d3637
+
+# printed output of user found in ldap 
+{
+    "alias": "3578", 
+    "firstName": "User", 
+    "lastName": "123", 
+    "pkid": "763b165f-7574-f013-aaa-3ec6a75d3637"
+}
